@@ -83,5 +83,19 @@
                                                                  &none              &none              &none              &none
         >;
         };
+
+        navigation_layer {
+        bindings = <
+//      _____________________________________________________________________________________________________________________________________________________________________________________________
+//      |                  |                  |                  |                  |                  |                  |                  |                  |                    |               |
+        &kp K_CUT          &kp F1             &kp F2             &kp F3             &kp F10            &kp PSCRN          &kp PG_UP          &kp PG_DN          &kp HOME             &kp END
+//      |                  |                  |                  |                  |                  |                  |                  |                  |                    |               |
+        &kp K_COPY         &kp F4             &kp F5             &kp F6             &kp F11            &none              &kp LEFT           &kp DOWN           &kp UP               &kp RIGHT
+//      |                  |                  |                  |                  |                  |                  |                  |                  |                    |               |
+        &kp K_PASTE        &kp F7             &kp F8             &kp F9             &kp F12            &none              &kp C_AC_CUT       &kp C_AC_COPY      &kp C_AC_PASTE       &none
+//                                                               |                  |                  |                  |                  |
+                                                                 &none              &none              &none              &none
+        >;
+        };
     };
 };
