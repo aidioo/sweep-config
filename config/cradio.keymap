@@ -118,7 +118,7 @@
 //      |                  |                  |                  |                  |                  |                  |                  |                  |                    |               |
         &bootloader        &none              &bt BT_CLR         &bt BT_SEL 0       &bt BT_DISC 0      &bt BT_DISC 3      &bt BT_SEL 3       &none              &none                &bootloader
 //      |                  |                  |                  |                  |                  |                  |                  |                  |                    |               |
-        &kp C_POWER        &none              &none              &bt BT_SEL 1       &bt BT_DISC 1      &bt BT_DISC 4      &bt BT_SEL 4       &none              &none                &kp C_AL_LOGOF
+        &kp C_POWER        &none              &none              &bt BT_SEL 1       &bt BT_DISC 1      &bt BT_DISC 4      &bt BT_SEL 4       &none              &none                &kp C_AL_LOGOFF
 //      |                  |                  |                  |                  |                  |                  |                  |                  |                    |               |
         &kp C_SLEEP        &none              &none              &bt BT_SEL 2       &bt BT_DISC 2      &bt BT_DISC 5      &bt BT_SEL 5       &none              &none                &kp K_LOCK
 //                                                               |                  |                  |                  |                  |
