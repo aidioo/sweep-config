@@ -97,5 +97,19 @@
                                                                  &none              &none              &none              &none
         >;
         };
+
+        media_layer {
+        bindings = <
+//      _____________________________________________________________________________________________________________________________________________________________________________________________
+//      |                  |                  |                  |                  |                  |                  |                  |                  |                    |               |
+        &none              &none              &none              &kp C_VOL_UP       &kp C_BRI_UP       &none              &kp C_NEXT         &kp C_FF           &kp C_REC            &none
+//      |                  |                  |                  |                  |                  |                  |                  |                  |                    |               |
+        &none              &none              &kp C_AL_NEXT_TASK &kp C_MUTE         &kp C_BRI_MAX      &none              &kp C_PP           &kp C_SLOW         &kp C_STOP           &none
+//      |                  |                  |                  |                  |                  |                  |                  |                  |                    |               |
+        &none              &none              &none              &kp C_VOL_DN       &kp C_BRI_MIN      &none              &kp C_PREV         &kp C_RW           &kp C_EJECT          &none
+//                                                               |                  |                  |                  |                  |
+                                                                 &kp C_AL_PREV_TASK &kp C_BRI_DN       &none              &none
+        >;
+        };
     };
 };
